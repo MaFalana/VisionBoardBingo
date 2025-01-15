@@ -5,57 +5,53 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
  
-    <title>Vision Board Bingo</title>
+    <title>Vision Board Bingo | 2025</title>
  
     <!-- Halfmoon CSS -->
     <link href="https://cdn.jsdelivr.net/npm/halfmoon@2.0.2/css/halfmoon.min.css" rel="stylesheet" integrity="sha256-RjeFzczeuZHCyS+Gvz+kleETzBF/o84ZRHukze/yv6o=" crossorigin="anonymous">
+    <!-- Font Awesome CSS -->
+    <script src="https://kit.fontawesome.com/632888dccb.js" crossorigin="anonymous"></script>
+    <!-- index CSS -->
+    <link href="../index.css" rel="stylesheet" type="text/css">
+    <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="index.js"></script>
-  </head>
-  <body class="bg-gradient bg-light">
- 
+    <script src="index.js" type="module"></script>
+
     <!-- Option 1: Bootstrap JS bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha256-CDOy6cOibCWEdsRiZuaHf8dSGGJRYuBGC+mjoJimHGw=" crossorigin="anonymous"></script>
+  </head>
+
+  <body class="bg-gradient bg-light">
  
-    <!-- Option 2: Separate Popper and Bootstrap JS
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha256-whL0tQWoY1Ku1iskqPFvmZ+CHsvmRWx/PIoEvIeWh4I=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha256-3gQJhtmj7YnV1fmtbVcnAV6eI4ws0Tr48bVZCThtCGQ=" crossorigin="anonymous"></script>
-    -->
-           
+ 
     
     <div class="container">
       <div class="row">
         <div class="col-12">
           <h1 class="text-center">Bingo Board</h1>
+
+          
+
+          <div class="card-group BingoBoard">
+
+          </div>
+
+          <!-- Borderless table -->
+          <table class="table table-responsive">
+            
+          </table>
+
+          <div class="button group">
+            <button class="btn btn-primary" id="shuffle">Shuffle</button>
+            <button class="btn btn-primary" id="bingo">Bingo!</button>
+          </div>
+
         </div>
+
+        
       </div>
 
-      <div class="row">
-        <div class="col-12">
-          <div class="card">
-
-            <div class="card front" style="width: 18.75rem;">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make up the 
-                    bulk of the card's content.
-                  </p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-              </div>
-
-
-              <div class="card back" style="width: 18.75rem;">
-                <div class="card-body">
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make up the 
-                    bulk of the card's content.
-                  </p>
-                </div>
-              </div>
-              
+      
 
   </body>
 </html>
